@@ -1,0 +1,22 @@
+input ports 
+A routers input ports and switching fabric together implement the 
+forwarding functions and are almost always implemented in hardware
+   description:
+Our study of the network layer so far has focussed on network layer service models,
+ the routing algorithms that control the routes taken by packets through the network, 
+and the protocols that embody these routing algorithms. These topics, however, 
+ are only part  of what goes on in the network layer, switching function of a router 
+ the actual transfer of datagrams from a router's incoming links to the appropriate outgoing
+links.  Studying just the control and service aspects of the network layer is like studying 
+ a company and considering only its management  and its public relations . To fully 
+appreciate what really goes on within a company, one needs to consider the workers. 
+ In the network layer, the real work  is the forwarding of datagrams.  A key component in 
+this forwarding process is the transfer of a datagram from a router's incoming link to an
+ outgoing link.  
+•	Input ports.  The input port performs several functions.  It performs
+ the physical layer functionality of  terminating an incoming physical link to a router. 
+ It performs the data link layer functionality needed to interoperate with the data link
+ layer functionality  on the other side of the incoming link. It also performs a lookup and 
+forwarding function so that a datagram forwarded into the switching fabric of the router 
+emerges at the appropriate output port.  Control packets  are forwarded from the input port to the routing
+ processor. In practice, multiple ports are often gathered together on a single line card within a router.

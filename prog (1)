@@ -1,0 +1,30 @@
+import java.net.*;
+import java.io.*;
+private socket socket;
+public class Inputports{
+public static void main(string[] args)
+{
+private datainput stream input=n;
+lowest_usn=53;
+BufferedReader keyRead=new BufferedReader(new  InputStreamReader(System.in);
+int ports_array[];
+for(i=30000+100*i+lowest_usn;i<n;i++)
+System.out.println(ports_array[]);
+System.out.println("message");
+if(length(sys.arg)!=5);
+System.out.println("number_of_ports,base value of ports,buffer size in bytes,transmit rate");
+System.out.println("buffer size in bytes");
+exit(1);
+name_of_program,number_of_ports,base_value_of_ports,buffer_size,transmit_rate=sys.arg;
+OutputStream ostream=sock.getOutputstream();
+Printwriterpwrite=new printWriter(ostream,true);
+System.out.println(fname);!=null)
+String str;
+while(str=content.readLine()
+{
+System.out.println(str);
+}
+sock.close();
+
+}
+}

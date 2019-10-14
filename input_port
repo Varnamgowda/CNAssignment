@@ -1,0 +1,12 @@
+ An input port performs several key functions.
+ It performs the physical layer function of terminating an incoming physical link at a router;
+ this is shown in the leftmost box of the input port and the rightmost box of the output port in the figure above. 
+An input port also performs link-layer functions needed to interoperate with the link layer at the other side of the incoming link; 
+this is represented by the middle boxes in the input and output ports.
+ Perhaps most crucially, the lookup function is also performed at the input port;
+ this will occur in the rightmost box of the input port.
+ It is here that the forwarding table is consulted to determine the router output port to which an arriving packet will be forwarded 
+via the switching fabric.
+ Control packets (for example, packets carrying routing protocol information) are forwarded from an input port to the routing processor.
+ Note that the term port here – referring to the physical input and output router interfaces – is distinctly different from the 
+software ports associated with network applications 
